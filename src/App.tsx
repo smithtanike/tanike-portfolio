@@ -9,6 +9,7 @@ import About from "./components/About";
 import { useSmoothScroll } from "./components/hooks/useSmoothScroll";
 //import GlowingCursor from "./components/hooks/GlowCursor";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   useSmoothScroll(); // ✅ enable smooth scroll globally
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }

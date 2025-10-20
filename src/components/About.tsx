@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="max-w-7xl py-30 bg-black" id="about">
-      <div className=" mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
+    <section className=" py-30 bg-black" id="about">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
         {/* LEFT COLUMN - Image with rotating text */}
         <div className="flex justify-center items-center mb-10 md:mb-0 md:w-1/2">
-          <div className="relative flex justify-center items-center w-[450px] h-[450px]">
+          <div className="relative flex justify-center items-center w-[400px] h-[400px]">
             {/* Rotating circular text */}
             <CircularText
               text="analytical • detailed • passionate • "
@@ -20,7 +20,7 @@ const About = () => {
             <motion.img
               src="src/assets/tanike_smith.jpeg"
               alt="Tanike Smith"
-              className="absolute w-[360px] h-[360px] rounded-full object-cover z-10"
+              className="absolute w-[300px] h-[300px] rounded-full object-cover z-10"
               initial={{ scale: 0.8, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.8 }}

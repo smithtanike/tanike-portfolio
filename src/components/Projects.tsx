@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Tanike Smith Portfolio",
     date: "2025",
-    tech: ["React", "Tailwind CSS", "TypeScript", "Vite", "Node.js"],
+    tech: ["React", "Tailwind CSS", "TypeScript", "Vite"],
     image: "/src/assets/tanikesmithprofile.png",
     link: "/",
   },
@@ -52,7 +52,7 @@ const projects = [
   {
     title: "Capture Nature",
     date: "2023",
-    tech: ["WordPress", "Gutenburg"],
+    tech: ["WordPress", "Gutenberg"],
     image: "/src/assets/capturenature.png",
     link: "https://capturenature.co.za/",
   },
